@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER wenji backend developer
+LABEL key="wenji backend developer" 
 
 ENV PYTHONUNBUFFERED 1
 
